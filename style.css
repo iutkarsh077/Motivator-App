@@ -1,0 +1,41 @@
+#video1 {
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+#logo{
+    font-weight: bolder;
+    color: rgb(13, 225, 13);
+}
+
+#first{
+    display: flex;
+    position: relative;
+    height: 10vh;
+    margin: 50px;
+    color: #EEA47F;
+}
+
+#name{
+    position: relative;
+    border: 3px solid white;
+}
+#btn1{
+    border: 3px solid white;
+}
+
+@media screen and (max-width: 566px){
+    #name{
+        position: relative;
+    }
+
+    #logo{
+        display: none;
+    }
+}
+
